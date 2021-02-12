@@ -1,0 +1,142 @@
+@charset "utf-8"; /* ag */
+
+/* ag */
+@font-face { font-family: "ZillaSlab";
+			font-style: normal;
+            src: url("../fonts/ZillaSlab-Regular.woff2"); }
+
+/* ag */
+@font-face { font-family: "ZillaSlab";
+			font-weight: bold;
+            src: url("../fonts/ZillaSlab-Bold.woff2"); }
+
+
+
+/* @font-face {
+    font-family: ZillaSlab;
+    src: url(../fonts/ZillaSlab-Regular.ttf); 
+  } ag */
+
+  /* *{font-family:ZillaSlab} ag */
+  * {
+    /* ag */
+    margin:0; 
+    padding:0; 
+    background: #ffffff;
+    
+    font-family: "ZillaSlab", Verdana, Helvetica, sans-serif;
+    font-style: normal;
+    color: #022;
+    font-size: 100%; /* entspricht 16px */
+    line-height: 1.4em;
+    
+    hyphens: auto;
+    }
+
+  h1{
+    /* font-family: 'Segoe UI';ag */
+    font-weight: bold;
+    font-size: 150%;
+    color:red;
+    /* text-align:center; ag */
+    letter-spacing: 0.05em;
+    margin-bottom: 0.4em;/* ag */
+  }
+
+  h2{
+    font-weight: bold;
+    font-size: 125%;
+    /* text-align:center; ag */
+    letter-spacing: 0.05em;
+    margin-bottom: 0.2em;
+  }
+
+  strong{
+    font-weight: bold;
+  }
+
+  p{
+    margin-bottom: 0.4em;
+  }
+
+  li{
+    margin-bottom: 0.4em;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;  /* ag: standardgemaessig wollen die Flex-Elemente alle in eine Zeile, mit wrap umbrechen die Elemente nach unten, wenn nötig, also der Platz nicht reicht */
+
+  }
+
+  main div#inhalt{
+    flex: 55%; /* ag: CSS Box Model bedenken. */
+    padding: 0 2.5% 0 2.5%;
+  }
+
+  main div#bilder{
+    flex: 40%;
+  }
+
+  figure{
+    margin-bottom: 1.5em;
+  }
+
+  main ul{
+    padding-left: 2em; /* ag */
+  }
+
+  ul + h2 {/* ag */
+    margin-top: 1em;
+  }
+
+  a:link, a:visited {/* ag */
+    text-decoration: none;
+    color: #FF5800
+  }
+
+  /* a:visited{
+    text-decoration: none;
+    color: #FF5800
+  } ag */
+
+  a:hover{
+    text-decoration: underline;
+  }
+
+  nav {/* ag */
+    padding: 1.5em;
+  }
+
+  nav ul{
+    display: flex;
+    list-style-type: none;
+    /* padding: 1.5em; ag */
+  }
+
+  nav li{
+    margin-right: 1em; /* ag */
+  }
+
+  footer{
+    /*padding-top: 0.4em;
+    padding-right: 0.4em;
+    padding-bottom: 0.4em;
+    padding-left: 1.5em;*/
+    padding: 0.4em 0.4em 0.4em 1.5em;
+  }
+
+  body{
+    width: 50em;
+    margin-top: 1.5em;
+    margin-bottom: 4em;
+    background-color: white;
+    box-shadow: 0px 0px 10px grey;
+  }
+
+ html {/* ag: <html> ist Wurzelelement */
+    background-color: #dcf0fc;
+    display: flex;
+    /* align-items: center; ag: Brauchen wir nicht. */
+    justify-content: center;
+  }
