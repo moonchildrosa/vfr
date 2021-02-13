@@ -1,0 +1,57 @@
+*{
+    text-align: center;
+}
+
+h1{
+    font-family: 'AffYours';
+    color: rgb(255, 208, 208);
+    font-size: 6em;
+
+}
+
+/*h1#h1p1{
+    text-align: center;
+}*/
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 1.5em;
+}
+
+button{
+    font-family: 'Trebuchet MS';
+    background-color: #e24747;
+    border: none;
+    color: white;
+    font-size: 32px;
+    padding: 8px 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    /*margin-left: 20px;*/
+}
+body{
+    background-color: #eb8686;
+}
+
+div{
+    margin: auto;
+    width: 13%;
+}
+
+img{
+    border: 5px solid #e24747;
+    border-radius: 20px;
+}
+
+img#lava{
+    margin-top: 60px;
+}
+img#pleading{
+    border: none;
+}
+
+@font-face {
+    font-family: 'AffYours';
+    src: url('/fonts/AffYours.ttf');
+}
