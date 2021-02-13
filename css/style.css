@@ -53,5 +53,5 @@ img#pleading{
 
 @font-face {
     font-family: 'AffYours';
-    src: url('/fonts/AffYours.ttf');
+    src: url('../fonts/AffYours.ttf');
 }
